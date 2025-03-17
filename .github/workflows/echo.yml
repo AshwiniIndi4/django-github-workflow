@@ -7,7 +7,8 @@ on:
       - develop
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Echo message
-      run: echo "Hello, world!"
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo message
+        run: echo "Hello, world!"
